@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from api.request_body.score import Score
 from api.db.db_manager import execute_query
-from app.scoring.scorer import Scorer
+from api.scoring.scorer import Scorer
 from typing import List, Dict
 
 router = APIRouter()

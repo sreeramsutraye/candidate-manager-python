@@ -18,6 +18,7 @@ class Experience(BaseModel):
 class Candidate(BaseModel):
     first_name: str
     last_name: str | None = None
+    title: str
     email : str
     phone: str
     achievement: list[str]
